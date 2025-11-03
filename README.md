@@ -1,6 +1,5 @@
-# 1. RENTAL PULSE MANAGEMENT  |  Powered by Microsoft Fabric Real-Time Intelligence & AI
+# RENTAL PULSE MANAGEMENT  |  Powered by Microsoft Fabric Real-Time Intelligence & AI
 
-- [1. RENTAL PULSE MANAGEMENT  |  Powered by Microsoft Fabric Real-Time Intelligence \& AI](#1-rental-pulse-management----powered-by-microsoft-fabric-real-time-intelligence--ai)
   - [1.1. Overview](#11-overview)
   - [1.2. Architecture Overview](#12-architecture-overview)
   - [1.3. Prerequisites](#13-prerequisites)
@@ -27,18 +26,15 @@
     - [1.8.2. Setting up report: page refresh](#182-setting-up-report-page-refresh)
     - [1.8.3. Creating visuals](#183-creating-visuals)
     - [1.8.4. Adding *Narrative* powered by Copilot](#184-adding-narrative-powered-by-copilot)
-    - [1.8.5. Adding Power Automate](#185-adding-power-automate)
+    - [1.8.5. Adding Power Automate Flow:  Real-Time Cleaner Assignment](#185-adding-power-automate-flow--real-time-cleaner-assignment)
   - [1.9. Summary](#19-summary)
   - [1.10. Authors](#110-authors)
   - [1.11. References](#111-references)
 
-
 ## 1.1. Overview
-
 Inspiration for this use case comes from a common business model in European tourist cities: property-management firms that operate ~30–100+ short- and mid-term rentals. Running this portfolio requires integrating many external data sources and reacting to real-time signals—equipment failures, cleaning-team staffing gaps, last-minute guest changes, or individual inquiries. Off-the-shelf apps are typically tailored to a narrow property profile, while real operations demand far greater flexibility. For stable, growth-oriented businesses, advanced analytics are equally important: mining historical performance and reviews, and enriching decisions with weather forecasts, city events, and more. In this scenario, we deliberately showcase a small set of the most impactful capabilities from our perspective, while keeping in mind the solution’s broad potential and a rich roadmap for subsequent phases. Because Microsoft Fabric offers both rapid start-up and a scalable path for future expansion, we chose it — specifically Fabric Real-Time Intelligence and AI — as the foundation for this solution.
 
 ---
-
 ## 1.2. Architecture Overview
 ![architecture diagram](./images/architecture_diagram.jpg)
 
@@ -53,10 +49,8 @@ In this demo, the behavior of external application, like Channel Manager, is sim
 
 To maintain data consistency and prevent booking date conflicts, the Function App also uses an **Azure Storage Account (Blob Storage)** to persist key information about previously generated events. This ensures that each new simulated event is validated against existing records, maintaining logical integrity throughout the data stream.
 
-
 ---
 ## 1.3. Prerequisites 
-
 - Active **Azure Subscription**  
 - **Microsoft Fabric Capacity** enabled 
 - Active **Power Automate Premium**
@@ -69,11 +63,8 @@ To maintain data consistency and prevent booking date conflicts, the Function Ap
     -  *Eventstream* with custom endpoint as a source
     -  *Eventhouse*
     -  *Lakehouse*
-
 ---
-
 ## 1.4. Channel Manager Simulator
-
 ### 1.4.1. Logic
 The Function App uses the **Timer Trigger** to run at regular intervals.  
 Each execution generates dummy booking events and checks **Blob Storage** for previously stored metadata to ensure data consistency (e.g. avoiding overlapping bookings).  
@@ -133,12 +124,10 @@ In our solution, the **Eventstream** is designed to receive inputs from multiple
 
 
 ### 1.5.4. Creating KQL queries - Copilot assistance
-
 To simplify query creation, we used **Copilot in KQL Queryset** to generate an initial version of the KQL code.  
 Below is the original prompt followed by the final, corrected query.
 
 #### 1.5.4.1. Table with latest reservation's status 
-
 **Prompt to Copilot:**
 >Write a KQL query that returns the latest reservation record for each reference_id. Each reservation has multiple events with an action column (newReservation, modifyReservation, cancelReservation) and a modified_at timestamp. If multiple actions occur at the exact same timestamp, use a priority rule: cancelReservation > modifyReservation > newReservation. Return the full record (all columns) of the latest status per reference_id.
 
@@ -200,7 +189,6 @@ reservations
 </pre>
 
 #### 1.5.4.3. Semantic model - `fct_cleaning_schedule`
-
 **Prompt to Copilot:**
 
 >Use the following query for table bookings: 'reservations | extend action_priority = case( action == "cancelReservation", 3, action == "modifyReservation", 2, action == "newReservation", 1, 0 ) | summarize arg_max(action_priority, *) by reference_id | where not(action == "cancelReservation")'
@@ -290,7 +278,6 @@ Joined
 </pre>
 
 #### 1.5.4.4. Semantic model - `fct_weekly_summary`
-
 **Prompt to Copilot:**
 >Use the following query for table bookings: 'reservations | extend action_priority = case( action == "cancelReservation", 3, action == "modifyReservation", 2, action == "newReservation", 1, 0 ) | summarize arg_max(action_priority, *) by reference_id'. Summarize occupancy, forward bookings, average daily rates, cancellations, and stay length on a weekly basis. When calculating average daily rates and occupancy, make sure to include the length of stay in the computation.
 
@@ -322,7 +309,6 @@ reservations
 </pre>
 
 ## 1.6. Lakehouse
-
 ### 1.6.1. Logic
 In our demo, the **Lakehouse** serves as a source of dimension data loaded from CSV files. These files represent simplified datasets used for demonstration purposes. In a real-world scenario, such data would typically originate from property management systems, CRM platforms, or pricing and availability databases. The dimension tables change infrequently and provide descriptive context for the booking events stored in the Eventhouse, supporting the semantic model used for analysis.
 
