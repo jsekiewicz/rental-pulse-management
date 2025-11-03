@@ -1,0 +1,256 @@
+apartment_id;review;sentiment;rating;name;review_date
+KRA-001;Tidy apartment and smooth check-in, would return.;positive;4;Mia;2025-2-6
+KRA-001;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Kate;2025-3-19
+KRA-001;Everything matched the photos, warm, tidy and functional.;positive;5;Ella;2025-3-27
+KRA-001;Tidy apartment and smooth check-in, would return.;positive;4;Lily;2025-3-28
+KRA-001;Good value and clean place, a solid base for exploring.;positive;4;Max;2025-4-1
+KRA-001;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Tom;2025-4-18
+KRA-001;Bright and cozy, exactly as described—great stay overall.;positive;5;James;2025-6-13
+KRA-001;Great value for the area, tidy and well organized.;positive;5;Nina;2025-8-23
+KRA-001;Good value and clean place, a solid base for exploring.;positive;4;Jacob;2025-10-15
+KRA-001;Clean, well-equipped and close to key sights—would book again.;positive;5;Emma;2025-10-22
+KRA-002;Spacious enough and very clean, felt safe and convenient.;positive;5;David;2025-2-18
+KRA-002;Clean, well-equipped and close to key sights—would book again.;positive;5;Ethan;2025-4-1
+KRA-002;Great value for the area, tidy and well organized.;positive;5;Oliver;2025-5-24
+KRA-002;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Sara;2025-6-26
+KRA-002;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Ethan;2025-8-3
+KRA-002;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Alex;2025-8-13
+KRA-002;Good value and clean place, a solid base for exploring.;positive;4;Olivia;2025-9-14
+KRA-003;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Leo;2025-1-13
+KRA-003;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Sara;2025-1-26
+KRA-003;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Sophia;2025-3-8
+KRA-003;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Oliver;2025-6-29
+KRA-003;Tidy apartment and smooth check-in, would return.;positive;4;Max;2025-9-12
+KRA-003;Tidy apartment and smooth check-in, would return.;positive;4;Charlotte;2025-9-23
+KRA-003;Everything matched the photos, warm, tidy and functional.;positive;5;Leo;2025-9-23
+KRA-004;Clean and central, though the mattress felt a touch firm for my taste.;negative;3;Isabella;2025-1-25
+KRA-004;Good value and clean place, a solid base for exploring.;positive;4;Lucas;2025-3-1
+KRA-004;Clean, well-equipped and close to key sights—would book again.;positive;5;Sofia;2025-4-6
+KRA-004;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Jack;2025-5-21
+KRA-004;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Peter;2025-7-11
+KRA-004;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Nora;2025-7-25
+KRA-004;Decent place—some wear on furnishings, but nothing that ruined the stay.;negative;3;Oliver;2025-9-22
+KRA-004;Everything matched the photos, warm, tidy and functional.;positive;5;Ben;2025-10-18
+KRA-005;Clean, well-equipped and close to key sights—would book again.;positive;5;Irene;2025-3-3
+KRA-005;Everything matched the photos, warm, tidy and functional.;positive;5;Isabella;2025-3-19
+KRA-005;Good value and clean place, a solid base for exploring.;positive;4;Sophia;2025-4-26
+KRA-005;Tidy apartment and smooth check-in, would return.;positive;4;Victoria;2025-9-6
+KRA-005;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Jacob;2025-10-7
+KRA-005;Clean, well-equipped and close to key sights—would book again.;positive;5;Peter;2025-10-23
+KRA-005;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;David;2025-10-30
+KRA-006;Tidy apartment and smooth check-in, would return.;positive;4;Julia;2025-4-3
+KRA-006;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Henry;2025-5-2
+KRA-006;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Emily;2025-7-4
+KRA-006;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Maya;2025-7-9
+KRA-006;Great value for the area, tidy and well organized.;positive;5;Owen;2025-7-21
+KRA-006;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Ben;2025-7-24
+KRA-006;Bright and cozy, exactly as described—great stay overall.;positive;5;Aria;2025-7-26
+KRA-006;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Max;2025-7-29
+KRA-006;Good value and clean place, a solid base for exploring.;positive;4;Ethan;2025-10-12
+KRA-007;Good value and clean place, a solid base for exploring.;positive;4;Leo;2025-1-27
+KRA-007;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Zoe;2025-2-6
+KRA-007;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;James;2025-3-27
+KRA-007;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Ava;2025-5-12
+KRA-007;Nice, functional space, met our needs well.;positive;4;Nina;2025-6-14
+KRA-007;Great value for the area, tidy and well organized.;positive;5;Ava;2025-7-19
+KRA-007;Spacious enough and very clean, felt safe and convenient.;positive;5;Max;2025-7-29
+KRA-007;Nice, functional space, met our needs well.;positive;4;Lily;2025-11-1
+KRA-008;Everything matched the photos, warm, tidy and functional.;positive;5;Mia;2025-1-20
+KRA-008;Nice, functional space, met our needs well.;positive;4;Lily;2025-1-30
+KRA-008;Everything matched the photos, warm, tidy and functional.;positive;5;Emma;2025-2-6
+KRA-008;Bright and cozy, exactly as described—great stay overall.;positive;5;Lily;2025-3-16
+KRA-008;Bright and cozy, exactly as described—great stay overall.;positive;5;Noah;2025-6-6
+KRA-008;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Oliver;2025-6-7
+KRA-008;Nice, functional space, met our needs well.;positive;4;Sofia;2025-6-13
+KRA-008;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Jacob;2025-9-11
+KRA-009;Tidy apartment and smooth check-in, would return.;positive;4;Noah;2025-1-20
+KRA-009;Everything matched the photos, warm, tidy and functional.;positive;5;Anna;2025-3-3
+KRA-009;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Noah;2025-3-5
+KRA-009;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Adam;2025-3-26
+KRA-009;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Samuel;2025-7-30
+KRA-009;Clean, well-equipped and close to key sights—would book again.;positive;5;Irene;2025-9-28
+KRA-009;Everything matched the photos, warm, tidy and functional.;positive;5;Emily;2025-10-7
+KRA-009;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Ben;2025-11-1
+KRA-010;Bright and cozy, exactly as described—great stay overall.;positive;5;Grace;2025-1-27
+KRA-010;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Jack;2025-2-16
+KRA-010;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Anna;2025-5-3
+KRA-010;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Ethan;2025-6-12
+KRA-010;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Lily;2025-8-13
+KRA-011;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Mia;2025-1-29
+KRA-011;Everything matched the photos, warm, tidy and functional.;positive;5;Ben;2025-2-21
+KRA-011;Tidy apartment and smooth check-in, would return.;positive;4;Lily;2025-4-14
+KRA-011;Clean, well-equipped and close to key sights—would book again.;positive;5;Nora;2025-5-3
+KRA-011;Bright and cozy, exactly as described—great stay overall.;positive;5;Lily;2025-5-24
+KRA-011;Bright and cozy, exactly as described—great stay overall.;positive;5;Emma;2025-6-27
+KRA-011;Spacious enough and very clean, felt safe and convenient.;positive;5;David;2025-10-1
+KRA-012;Clean, well-equipped and close to key sights—would book again.;positive;5;Emily;2025-2-10
+KRA-012;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Ben;2025-2-14
+KRA-012;Everything matched the photos, warm, tidy and functional.;positive;5;Amelia;2025-4-16
+KRA-012;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Henry;2025-5-14
+KRA-012;Tidy apartment and smooth check-in, would return.;positive;4;Peter;2025-7-9
+KRA-012;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Ethan;2025-9-4
+KRA-012;Everything matched the photos, warm, tidy and functional.;positive;5;Emma;2025-9-17
+KRA-013;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Kate;2025-1-4
+KRA-013;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;David;2025-1-14
+KRA-013;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Kate;2025-2-27
+KRA-013;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Nina;2025-3-23
+KRA-013;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Emma;2025-5-10
+KRA-013;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Julia;2025-5-22
+KRA-013;Clean, well-equipped and close to key sights—would book again.;positive;5;Oliver;2025-10-15
+KRA-013;Bright and cozy, exactly as described—great stay overall.;positive;5;Nina;2025-10-30
+KRA-014;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Leo;2025-1-10
+KRA-014;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Oliver;2025-3-10
+KRA-014;Good value and clean place, a solid base for exploring.;positive;4;Mark;2025-3-28
+KRA-014;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Tom;2025-4-19
+KRA-014;Nice, functional space, met our needs well.;positive;4;Nina;2025-4-29
+KRA-014;Clean, well-equipped and close to key sights—would book again.;positive;5;Oliver;2025-9-30
+KRA-014;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Emily;2025-10-13
+KRA-014;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Grace;2025-10-14
+KRA-014;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Daniel;2025-10-19
+KRA-015;Everything matched the photos, warm, tidy and functional.;positive;5;Tom;2025-1-11
+KRA-015;Clean, well-equipped and close to key sights—would book again.;positive;5;Olivia;2025-2-12
+KRA-015;Great value for the area, tidy and well organized.;positive;5;Abigail;2025-5-2
+KRA-015;Tidy apartment and smooth check-in, would return.;positive;4;Grace;2025-8-14
+KRA-015;Clean, well-equipped and close to key sights—would book again.;positive;5;Nina;2025-9-7
+KRA-016;Decent place—some wear on furnishings, but nothing that ruined the stay.;negative;3;Irene;2025-1-1
+KRA-016;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Ben;2025-1-18
+KRA-016;Clean, well-equipped and close to key sights—would book again.;positive;5;Peter;2025-5-1
+KRA-016;Nice, functional space, met our needs well.;positive;4;Ava;2025-9-15
+KRA-016;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Maya;2025-9-15
+KRA-016;Decent place—some wear on furnishings, but nothing that ruined the stay.;negative;3;Samuel;2025-9-18
+KRA-016;Great value for the area, tidy and well organized.;positive;5;Jack;2025-9-28
+KRA-016;Everything matched the photos, warm, tidy and functional.;positive;5;Jacob;2025-10-7
+KRA-017;Everything matched the photos, warm, tidy and functional.;positive;5;Emma;2025-4-29
+KRA-017;Spacious enough and very clean, felt safe and convenient.;positive;5;Owen;2025-6-21
+KRA-017;Good value and clean place, a solid base for exploring.;positive;4;Adam;2025-7-20
+KRA-017;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Daniel;2025-8-10
+KRA-017;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;James;2025-8-24
+KRA-017;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Ella;2025-9-16
+KRA-017;Everything matched the photos, warm, tidy and functional.;positive;5;Mark;2025-10-13
+KRA-018;Everything matched the photos, warm, tidy and functional.;positive;5;Nora;2025-1-20
+KRA-018;Bright and cozy, exactly as described—great stay overall.;positive;5;Nora;2025-2-21
+KRA-018;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Leo;2025-3-10
+KRA-018;Clean, well-equipped and close to key sights—would book again.;positive;5;Leo;2025-3-19
+KRA-018;Spacious enough and very clean, felt safe and convenient.;positive;5;Jack;2025-4-5
+KRA-018;Bright and cozy, exactly as described—great stay overall.;positive;5;Nora;2025-6-10
+KRA-018;Good value and clean place, a solid base for exploring.;positive;4;Lily;2025-7-4
+KRA-018;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Zoe;2025-10-6
+KRA-018;Great value for the area, tidy and well organized.;positive;5;Ethan;2025-10-19
+KRA-018;Good value and clean place, a solid base for exploring.;positive;4;Aria;2025-10-27
+KRA-019;Everything matched the photos, warm, tidy and functional.;positive;5;Ethan;2025-2-23
+KRA-019;Spacious enough and very clean, felt safe and convenient.;positive;5;Owen;2025-4-11
+KRA-019;Tidy apartment and smooth check-in, would return.;positive;4;Lily;2025-4-16
+KRA-019;Everything matched the photos, warm, tidy and functional.;positive;5;Isabella;2025-5-4
+KRA-019;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Sara;2025-6-20
+KRA-019;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Kate;2025-6-23
+KRA-019;Spacious enough and very clean, felt safe and convenient.;positive;5;Daniel;2025-10-7
+KRA-019;Clean, well-equipped and close to key sights—would book again.;positive;5;Victoria;2025-10-30
+KRA-020;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Charlotte;2025-1-8
+KRA-020;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Henry;2025-3-25
+KRA-020;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Max;2025-6-13
+KRA-020;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Chloe;2025-7-5
+KRA-020;Nice, functional space, met our needs well.;positive;4;Tom;2025-7-30
+KRA-020;Tidy apartment and smooth check-in, would return.;positive;4;Julia;2025-10-20
+KRA-021;Nice, functional space, met our needs well.;positive;4;Eva;2025-1-12
+KRA-021;Nice, functional space, met our needs well.;positive;4;Grace;2025-1-20
+KRA-021;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Abigail;2025-3-6
+KRA-021;Bright and cozy, exactly as described—great stay overall.;positive;5;Michael;2025-6-16
+KRA-021;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Leo;2025-7-9
+KRA-021;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Daniel;2025-7-27
+KRA-021;Nice, functional space, met our needs well.;positive;4;James;2025-8-8
+KRA-021;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;David;2025-10-18
+KRA-022;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Ben;2025-2-1
+KRA-022;Good value and clean place, a solid base for exploring.;positive;4;Lily;2025-3-19
+KRA-022;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Amelia;2025-4-3
+KRA-022;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Nora;2025-5-7
+KRA-022;Everything matched the photos, warm, tidy and functional.;positive;5;Noah;2025-5-16
+KRA-022;Bright and cozy, exactly as described—great stay overall.;positive;5;Victoria;2025-9-11
+KRA-022;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Sara;2025-10-20
+KRA-023;Bright and cozy, exactly as described—great stay overall.;positive;5;James;2025-1-10
+KRA-023;Good value and clean place, a solid base for exploring.;positive;4;Victoria;2025-3-5
+KRA-023;Bright and cozy, exactly as described—great stay overall.;positive;5;Hannah;2025-3-26
+KRA-023;Clean, well-equipped and close to key sights—would book again.;positive;5;Victoria;2025-5-24
+KRA-023;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Jacob;2025-5-26
+KRA-023;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Ava;2025-8-18
+KRA-024;Great value for the area, tidy and well organized.;positive;5;Lily;2025-2-3
+KRA-024;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Eva;2025-2-10
+KRA-024;Great value for the area, tidy and well organized.;positive;5;David;2025-6-16
+KRA-024;Great value for the area, tidy and well organized.;positive;5;Sophia;2025-6-28
+KRA-024;Clean, well-equipped and close to key sights—would book again.;positive;5;Daniel;2025-7-29
+KRA-024;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Lucas;2025-8-8
+KRA-024;Bright and cozy, exactly as described—great stay overall.;positive;5;Peter;2025-9-9
+KRA-024;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Mia;2025-9-28
+KRA-024;Spacious enough and very clean, felt safe and convenient.;positive;5;Irene;2025-10-11
+KRA-024;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Grace;2025-10-12
+KRA-025;Clean and central, though the mattress felt a touch firm for my taste.;negative;3;Tom;2025-1-12
+KRA-025;Everything matched the photos, warm, tidy and functional.;positive;5;Zoe;2025-2-3
+KRA-025;Overall ok, but a bit of street noise at night, still fine for a short stay.;negative;3;Nina;2025-4-11
+KRA-025;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Charlotte;2025-4-18
+KRA-025;Great value for the area, tidy and well organized.;positive;5;Grace;2025-7-9
+KRA-025;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Eva;2025-8-4
+KRA-025;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Daniel;2025-9-17
+KRA-026;Spacious enough and very clean, felt safe and convenient.;positive;5;Owen;2025-1-7
+KRA-026;Clean, well-equipped and close to key sights—would book again.;positive;5;Leo;2025-2-16
+KRA-026;Great value for the area, tidy and well organized.;positive;5;Charlotte;2025-6-26
+KRA-026;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Alex;2025-7-3
+KRA-026;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Jack;2025-9-26
+KRA-026;Great value for the area, tidy and well organized.;positive;5;Irene;2025-10-17
+KRA-027;Clean, well-equipped and close to key sights—would book again.;positive;5;Olivia;2025-1-22
+KRA-027;Spacious enough and very clean, felt safe and convenient.;positive;5;Tom;2025-3-13
+KRA-027;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Zoe;2025-3-26
+KRA-027;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Adam;2025-3-30
+KRA-027;Everything matched the photos, warm, tidy and functional.;positive;5;Isabella;2025-4-20
+KRA-027;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Hannah;2025-4-21
+KRA-027;Good value and clean place, a solid base for exploring.;positive;4;Samuel;2025-7-28
+KRA-027;Clean, well-equipped and close to key sights—would book again.;positive;5;Abigail;2025-8-17
+KRA-027;Clean, well-equipped and close to key sights—would book again.;positive;5;Emma;2025-10-2
+KRA-027;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Sophia;2025-10-20
+KRA-028;Spacious enough and very clean, felt safe and convenient.;positive;5;Lucas;2025-1-26
+KRA-028;Bright and cozy, exactly as described—great stay overall.;positive;5;Lily;2025-2-16
+KRA-028;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Amelia;2025-8-7
+KRA-028;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Isabella;2025-8-20
+KRA-028;Bright and cozy, exactly as described—great stay overall.;positive;5;Hannah;2025-9-2
+KRA-029;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Kate;2025-1-30
+KRA-029;Clean, well-equipped and close to key sights—would book again.;positive;5;Emily;2025-2-1
+KRA-029;Bright and cozy, exactly as described—great stay overall.;positive;5;Aria;2025-3-22
+KRA-029;Clean, well-equipped and close to key sights—would book again.;positive;5;Olivia;2025-3-31
+KRA-029;Clean, well-equipped and close to key sights—would book again.;positive;5;James;2025-6-16
+KRA-029;Everything matched the photos, warm, tidy and functional.;positive;5;Chloe;2025-6-24
+KRA-029;Clean, well-equipped and close to key sights—would book again.;positive;5;Charlotte;2025-6-26
+KRA-029;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Noah;2025-8-25
+KRA-029;Nice, functional space, met our needs well.;positive;4;Owen;2025-9-25
+KRA-030;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Irene;2025-2-14
+KRA-030;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Sara;2025-2-25
+KRA-030;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Adam;2025-6-20
+KRA-030;Clean, well-equipped and close to key sights—would book again.;positive;5;Sophia;2025-8-18
+KRA-030;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Julia;2025-8-20
+KRA-031;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Ben;2025-1-11
+KRA-031;Clean, well-equipped and close to key sights—would book again.;positive;5;Charlotte;2025-6-6
+KRA-031;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Olivia;2025-6-17
+KRA-031;Everything matched the photos, warm, tidy and functional.;positive;5;David;2025-7-11
+KRA-031;Good value and clean place, a solid base for exploring.;positive;4;Aria;2025-9-19
+KRA-032;Overall ok, but a bit of street noise at night, still fine for a short stay.;negative;3;Oliver;2025-5-9
+KRA-032;Everything matched the photos, warm, tidy and functional.;positive;5;Olivia;2025-6-26
+KRA-032;Spacious enough and very clean, felt safe and convenient.;positive;5;Ethan;2025-7-2
+KRA-032;Overall ok, but a bit of street noise at night, still fine for a short stay.;negative;3;Mark;2025-7-21
+KRA-032;Clean, well-equipped and close to key sights—would book again.;positive;5;Grace;2025-8-16
+KRA-032;Spacious enough and very clean, felt safe and convenient.;positive;5;Adam;2025-9-15
+KRA-032;Great value for the area, tidy and well organized.;positive;5;Maya;2025-9-18
+KRA-033;Spacious enough and very clean, felt safe and convenient.;positive;5;Aria;2025-1-21
+KRA-033;Spacious enough and very clean, felt safe and convenient.;positive;5;Ella;2025-1-22
+KRA-033;Everything matched the photos, warm, tidy and functional.;positive;5;Emma;2025-9-13
+KRA-033;Tidy apartment and smooth check-in, would return.;positive;4;Daniel;2025-10-21
+KRA-033;Great value for the area, tidy and well organized.;positive;5;Lucas;2025-10-28
+KRA-034;Spacious enough and very clean, felt safe and convenient.;positive;5;Lucas;2025-1-12
+KRA-034;Good value and clean place, a solid base for exploring.;positive;4;Nora;2025-2-15
+KRA-034;Good value and clean place, a solid base for exploring.;positive;4;Kate;2025-6-8
+KRA-034;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Adam;2025-6-20
+KRA-034;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;Lily;2025-10-3
+KRA-034;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Eva;2025-10-6
+KRA-035;Super easy check-in and very comfortable beds, highly recommend.;positive;5;Ava;2025-4-18
+KRA-035;Clean, well-equipped and close to key sights—would book again.;positive;5;Ella;2025-7-7
+KRA-035;Comfortable and convenient with easy access—minor details aside, a pleasant stay.;positive;4;Isabella;2025-7-17
+KRA-035;Lovely decor and seamless self check-in, perfect for a weekend.;positive;5;Tom;2025-7-17
+KRA-035;Quiet at night, modern interior and stable Wi-Fi.;positive;5;Nora;2025-8-3
+KRA-035;Comfortable layout, fast Wi-Fi and friendly communication.;positive;5;James;2025-9-14
+KRA-035;Fantastic location and spotless inside, everything worked smoothly.;positive;5;Adam;2025-10-9

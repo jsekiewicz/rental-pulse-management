@@ -1,0 +1,8 @@
+season_code;season_name;season_start;season_end;uplift;default_min_stay_nights
+LOW_A;Low Season (A);08.01.2026 00:00:00;31.03.2026 00:00:00;-1;1
+SHOULDER_A;Shoulder (A);01.04.2026 00:00:00;31.05.2026 00:00:00;1;1
+HIGH;High Season;01.06.2026 00:00:00;30.09.2026 00:00:00;2;2
+SHOULDER_B;Shoulder (B);01.10.2026 00:00:00;31.10.2026 00:00:00;1;1
+LOW_B;Low Season (B);01.11.2026 00:00:00;19.12.2026 00:00:00;-5;1
+PEAK;Peak Season;20.12.2026 00:00:00;31.12.2026 00:00:00;35;3
+ALL;All Year (Monthly);01.01.2026 00:00:00;31.12.2026 00:00:00;0;null

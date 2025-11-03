@@ -1,0 +1,52 @@
+createOrReplace
+
+	relationship 1371dac1-0fad-484d-9005-26eb19081c87
+		fromColumn: fct_reservations.apartment_id
+		toColumn: dim_apartments.apartment_id
+
+	relationship 508698ae-c9eb-4651-a58a-60d131661551
+		fromColumn: fct_reservations.channel
+		toColumn: dim_channel.channel_code
+
+	relationship dc7eeff5-f434-9152-310b-6202e3455bfc
+		toCardinality: many
+		fromColumn: cleaning_availability.shift_start
+		toColumn: fct_cleaning_schedule.cleaning_start
+
+	relationship e68edd86-6ceb-6712-96ec-83b7571dca23
+		fromColumn: fct_weekly_summary.apartment_id
+		toColumn: dim_apartments.apartment_id
+
+	relationship 8a61b2f3-7f29-d576-47f3-4cdc5dc0c9d6
+		fromColumn: feedback.apartment_id
+		toColumn: dim_apartments.apartment_id
+
+	ref table _Measures
+
+		measure 'assigned cleaner' =
+				
+				VAR _resID = SELECTEDVALUE(fct_cleaning_schedule[reservation_id])
+				RETURN LOOKUPVALUE(cleaners_workload[assigned_cleaner],cleaners_workload[reservation_id], _resID, "not assigned")
+			lineageTag: be8cfc12-ad3a-4703-9f88-1f86df15ac7f
+
+		measure 'cleaning employee' = SELECTEDVALUE(cleaning_availability[cleaner])
+			lineageTag: d21b2a3f-00cc-4541-b432-717ab8e66b7b
+
+		measure 'cleaning reservation' = SELECTEDVALUE(fct_cleaning_schedule[reservation_id])
+			lineageTag: 5f14315f-2a94-4633-8adf-f1f64bbe74a7
+
+		measure 'no. of cancelled' = CALCULATE([total events], fct_reservations[is_cancelled])
+			formatString: 0
+			lineageTag: fea882fb-a650-4950-9e40-5933ce366218
+
+		measure 'no. of future reservations' = CALCULATE([total events], fct_reservations[is_reserved])
+			formatString: 0
+			lineageTag: e533bbad-ff0e-4bbc-a2dc-6e2bc63aff96
+
+		measure 'no. of ocupied' = CALCULATE([total events], fct_reservations[is_occupied])
+			formatString: 0
+			lineageTag: ba5b3e80-fc34-40f3-94d0-742211c1e94f
+
+		measure 'no. of past reservations' = CALCULATE([total events], fct_reservations[is_closed])
+			formatString: 0
+			lineageTag: 271f693c-69c3-4824-bf82-7a390d7a9362
