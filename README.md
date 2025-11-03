@@ -28,7 +28,6 @@
     - [1.8.3. Creating visuals](#183-creating-visuals)
     - [1.8.4. Adding *Narrative* powered by Copilot](#184-adding-narrative-powered-by-copilot)
     - [1.8.5. Adding Power Automate](#185-adding-power-automate)
-  - [](#)
   - [1.9. Summary](#19-summary)
   - [1.10. Authors](#110-authors)
   - [1.11. References](#111-references)
@@ -322,7 +321,6 @@ reservations
 | order by week asc
 </pre>
 
-
 ## 1.6. Lakehouse
 
 ### 1.6.1. Logic
@@ -335,7 +333,6 @@ In our demo, the **Lakehouse** serves as a source of dimension data loaded from 
 1. Load each file to a new table. **Important:** the CSV files are semicolon-separated.
 
    ![load to tables](./images/lakehouse-to-tables.jpg) 
-
 
 ## 1.7. Semantic model
 
@@ -350,8 +347,7 @@ The **Semantic Model** combines data from both the KQL database and the Lakehous
 
 3. Paste KQL query generated previously for `fct_cleaning_schedule`.
 4. Do the same steps to create `fct_reservations` and `fct_weekly_summary`.
-5. Add relationships and DAX measureas. Go to *TMDL view* and run the script [TODO] dodac plik 
-
+5. Add relationships and DAX measureas. Go to *TMDL view* and run the [script](./resources/03%20Semantic%20Model/sm-tmdl-script.txt) from  with relationships and measures examples.
 
 ## 1.8. Power BI Report with Power Automate
 
@@ -389,9 +385,22 @@ You can also use **Copilot in Power BI** to automatically suggest and generate v
 
    ![pbi-copilot-narrative-example](./images/pbi-copilot-narrative-example.png)
 
-### 1.8.5. Adding Power Automate 
+### 1.8.5. Adding Power Automate Flow:  Real-Time Cleaner Assignment
 
-[TODO] - opis logiki rozwiązania
+**Objective:** The goal of this flow is to automatically assign cleaners in real time to apartments that are about to be vacated by guests.
+
+**Flow Overview:**
+
+The report page present data from the `fct_cleaning_schedule` table, which contains upcoming check-outs and cleaning requirements. At the same time, it reads from `cleaning_availability`, which provides information about staff availability. When a specific apartment is selected (e.g., from a Power BI table), there is filtered the list of cleaners available during the corresponding time slot.
+
+A slicer allows the user to further refine the selection and choose a specific cleaner. Once a cleaner is selected, the flow creates an assignment record — linking the employee and apartment (via reservation) that requires cleaning. Finally, the flow sends this assignment to Eventhouse, updating both the staff schedule and the apartment status.
+
+**Result:**
+This flow automates the cleaner assignment process, ensuring real-time updates and eliminating manual scheduling. Users can instantly view which cleaners are available and which apartments they have been assigned to.
+
+![power-automate-example](./images/power-automate-example.png)
+
+**How to create flow:**
 
 1. In Power BI Desktop, select *Power Automate* on Visualizations pane.
 
@@ -415,8 +424,8 @@ You can also use **Copilot in Power BI** to automatically suggest and generate v
 8. Go to your Eventstream and add new path with steps *Transform* and *Destination* in KQL database (`cleaners_workload`).
 
    ![eventstream-view](./images/eventstream-view.jpg)
----
 
+---
 ## 1.9. Summary 
 
 This use case targets property managers running 30–100+ short- and mid-term rentals who need flexible, real-time operations and deeper analytics than off-the-shelf apps provide. In this scenario we present a focused set of core capabilities first, while recognizing the platform’s wide potential and a rich roadmap for later stages. By unifying diverse data sources and combining live signals with historical and external context (reviews, weather, city events), Microsoft Fabric — especially Real-Time Intelligence and AI — delivers the agility needed today and a scalable foundation for growth. Looking ahead, we see clear opportunities to add AI Language for reviews to power advanced sentiment and aspect-based insights; integrate more deeply with Power Platform to enable notifications, write-back, dynamic staff assignment, and rapid reorganization of cleaning teams when no-shows occur; and leverage Copilot and Q&A so users can ask natural-language questions and get instant explanations and summaries. From experience, every business evolves and seeks new markets and opportunities—Fabric’s scalability and flexibility make it an ideal base for that journey.
